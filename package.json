@@ -1,23 +1,28 @@
 {
-	"name": "eslint-config-base",
-	"version": "1.0.0",
-	"description": "My ESLint config for a project using JS",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/galdanm/eslint-config-base"
-	},
+  "name": "@galdanm/eslint-config-base",
 	"author": "Galdan MOULINNEUF",
 	"license": "MIT",
 	"private": false,
-	"peerDependencies": {
-		"eslint": ">=7",
-		"eslint-plugin-prettier": ">=3",
-		"prettier": ">=2"
+  "version": "1.0.0",
+  "description": "My ESLint config for a project using JS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galdanm/eslint-config-base.git"
+  },
+	"bugs": {
+		"url": "https://github.com/galdanm/eslint-config-base/issues"
 	},
-	"devDependencies": {
-		"eslint": "^7.21.0",
-		"eslint-config-prettier": "^8.1.0",
-		"eslint-plugin-prettier": "^3.3.1",
-		"prettier": "^2.2.1"
-	}
+	"homepage": "https://github.com/galdanm/eslint-config-base#readme",
+	"main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7",
+    "eslint-plugin-prettier": ">=3",
+    "prettier": ">=2"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
 }
