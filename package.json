@@ -3,7 +3,7 @@
 	"author": "Galdan MOULINNEUF",
 	"license": "MIT",
 	"private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My ESLint config for a project using JS",
   "repository": {
     "type": "git",
@@ -16,13 +16,14 @@
 	"main": "index.js",
   "peerDependencies": {
     "eslint": ">=7",
-    "eslint-plugin-prettier": ">=3",
     "prettier": ">=2"
   },
-  "devDependencies": {
+	"dependencies": {
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-prettier": "^3.3.1"
+	},
+	"devDependencies": {
     "eslint": "^7.21.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1"
   }
 }
